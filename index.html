@@ -1,32 +1,68 @@
 <!-- isso é um comentário em HTML. -->
 <!DOCTYPE html> <!-- esse é o DTD do HTML 5 -->
 <html lang=pt-br>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, inicial-scale=1.0">
-		<title>Documento Teste</title>
-	</head>
-	<body>
-	
-		<div class="container">
-			<header class="cabeçalho">
 
-				<h1 style="text-align:center">
-					Minha página
-				</h1>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+	<title>Documento Teste</title>
+</head>
 
-			<nav>
-				<!--Unordered list-->
-				<ul>
-					<!--Lista apenas na tag <li>-->
-					<li><a href="https://fiap.com.br" target="_blank">FIAP</a> </li>
-					<li><a href="https://google.com" target="_blank">Google</a> </li>
-					<li><a href="https://github.com" target="_blank">GitHub</a> </li>
-					<!--Lista apenas na tag <li>-->
-				</ul>
-			</nav>
-			</header>
+<body>
+	<div class="container">
+		<header class="cabeçalho">
+			<h1 style="text-align:center">
+				Minha página
+			</h1>
+			<section class="conteudo">
+				<div>
+					<h2>HELP</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsum laboriosam voluptatum
+						fugit blanditiis suscipit veniam optio eveniet placeat expedita officia deleniti excepturi,
+						voluptate quaerat corrupti cumque eum provident aliquam.
+						<a href="#">Mais...</a>
+				</div>
+				<div>
+					<h2>ABOUT</h2>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur libero qui ab id similique
+						corrupti
+						cupiditate cumque delectus aut cum?</p>
+					<a href="#">Mais...</a>
+				</div>
+				<div>
+					<h2>CONTACT</h2>
+					<form>
+						<fieldset>
+							<legend>Costumer Data</legend>
+							<div>
+								<label for="idNm">Nome:</label>
+								<input type="text" name="txtNm" placeholder="Digite seu nome." />
+							</div>
+							<div>
+								<label for="idEmail">Email:</label>
+								<input type="email" name="txtEmail" placeholder="Digite seu email" />
+							</div>
+							<div>
+								<button type="button">Send</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</section>
+			<footer class="rodapé">
+				<nav>
+					<!--Unordered list-->
+					<ul>
+						<!--Lista apenas na tag <li>-->
+						<li> <a href="https://fiap.com.br" target="_blank">FIAP</a> </li>
+						<li> <a href="https://google.com" target="_blank">Google</a> </li>
+						<li> <a href="https://github.com" target="_blank">GitHub</a> </li>
+						<!--Lista apenas na tag <li>-->
+					</ul>
+				</nav>
+				<p>Todos os direitos reservados &copy; - Minha página 2024</p>
+			</footer>
+	</div>
+</body>
 
-		</div>
-	</body>
 </html>
